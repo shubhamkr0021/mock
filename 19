@@ -1,0 +1,9 @@
+def cal_mean(num):
+    if len(num) == 0:
+        return None
+    total = sum(num)
+    mean = total / len(num)
+    return mean
+numbers = [1, 2, 3, 4, 5]
+mean = cal_mean(num)
+print(mean)
